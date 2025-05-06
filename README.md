@@ -1,6 +1,6 @@
 # AWS-terraform-infrastructure-portfolio
 
-The idea behind this repo is to learn how to use Terraform, an Infrastructure as Code (IaC) tool, to provision AWS infrastructure for a public-facing web server. The project includes:
+The idea behind this repo is to learn how to use Terraform to provision AWS infrastructure for a public-facing web server. The project includes:
  - AWS EC2 RHEL for web hosting (Python/Flask backend)
  - Using Security Groups to act as a firewall and control Inbound/Outbound traffic (e.g HTTP(80) and SSH(22))
  - AWS S3 to host static assets (i.e media or html/css)
