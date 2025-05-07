@@ -14,9 +14,19 @@ Below are the resources used to get me started:
 
 ## To Do
 
+<<<<<<< HEAD
 - Create a VPC & Subnet
     - Try to tighten the SSH to my personal IP only
 - Create an Internet Gateway & Route Table
 - Pair the Subnet to the Route Table
 - Create a Network Interface within the IP range of the subnet
 - Install Flask on the provisioned server and create a static webpage
+=======
+- [x] Create a VPC & Subnet 
+    - [ ] Try to tighten the SSH to my personal IP only
+- [x] Create an Internet Gateway & Route Table
+- [x] Pair the Subnet to the Route Table
+- [x] Create a Network Interface within the IP range of the subnet
+- [x] Create and EC2 Instance that will be the public-facing Web Server
+- [ ] Install Flask on the provisioned server and create a static webpage
+>>>>>>> c41bb37 (Cleaned up TF configuration file. Added VPC, Subnet, Gateway, Route Table & Association and NIC/EIP with a static IP address.)

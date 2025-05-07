@@ -6,3 +6,15 @@ variable "aws_region" {
 variable "instance_type" {
   default = "t2.micro"
 }
+
+# variable "ssh_cidr" {
+#   description = "CIDR block allowed to SSH in"
+#   type = string
+#   default = "0.0.0.0/0"
+# }
+
+variable "public_subnet_cidr" {
+    type = string
+    description = "Public Subnet CIDR values"
+    default = "10.0.1.0/24"
+}
