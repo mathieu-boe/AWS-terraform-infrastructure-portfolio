@@ -20,4 +20,4 @@ Below are the resources used to get me started:
 - [x] Pair the Subnet to the Route Table
 - [x] Create a Network Interface within the IP range of the subnet
 - [x] Create and EC2 Instance that will be the public-facing Web Server
-- [ ] Install Flask on the provisioned server and create a static webpage
+- [x] Install Flask on the provisioned server and create a static webpage

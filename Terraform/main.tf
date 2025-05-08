@@ -18,6 +18,8 @@ resource "aws_instance" "web" {
   instance_type = var.instance_type
   key_name = "Flask_WebServer"
 
+  user_data = file("flask_setup.sh")
+
   network_interface {
     device_index         = 0
     network_interface_id = aws_network_interface.web_nic.id
@@ -118,8 +120,8 @@ resource "aws_security_group" "allow_web" {
 
   ingress {
     description = "HTTP"
-    from_port = 80
-    to_port = 80
+    from_port = 8080
+    to_port = 8080
     protocol = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
